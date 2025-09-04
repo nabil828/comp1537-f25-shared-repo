@@ -1,0 +1,78 @@
+HTML Basics (attributes, elements)
+
+### HTML Basics To Cover:
+
+#### 1. Structure:
+  - : Define the document type.
+  - : Root element. 
+  - : Contains metadata.
+    - <title>: Title of the webpage.
+    - meta: Metadata like character set, description, etc.
+  - body: Content of the webpage. 
+
+
+#### 2. Text Formatting:
+  - h1 to h6: Headings (largest to smallest).
+  - p: Paragraphs.
+  - strong: Bold text.
+  - em: Italic text.
+  - u: Underlined text.
+  - br: Line break.
+  - hr: Horizontal line.
+
+
+#### 3. Links and Images:
+  - a: Anchor tag for links.
+  - img: Insert images.
+
+
+#### 4. Lists:
+  - ul: Unordered list.
+    - li: List item.
+  - ol: Ordered list.
+    - li: List item.
+
+
+#### 5. Tables:
+  - table: Create tables.
+    - tr: Table row.
+    - td: Table data/cell.
+    - th: Table header cell.
+
+
+#### 6. Forms:
+  - form: Create a form. 
+    - input: Input fields (text, password, email, etc.). 
+    - textarea: Multi-line text input. 
+    - button: Buttons. 
+    - select: Dropdown/select menu. 
+    - option: Options within a select menu. 
+
+
+#### 7. Semantic Elements:
+  - header: Represents introductory content.
+  - footer: Represents footer content.
+  - nav: Defines a set of navigation links.
+  - article: Represents independent, self-contained content.
+  - section: Represents a generic section of a document.
+  - aside: Defines content aside from the main content.
+
+
+#### 8. Comments:
+  - !-- --: Add comments in the HTML code.
+
+
+#### 9. Attributes:
+  - id: Unique identifier for an element.
+  - class: Assign a class to an element.
+  - src: Source attribute for images, scripts, etc.
+  - href: Hyperlink reference for a tags.
+
+
+#### 10. Document Structure and Validation:
+  - Proper indentation and organization.
+  - Validate HTML code using tools like W3C Markup Validation Service.
+
+
+#### 11. Doctype and Charset:
+  - Ensure the use of `!DOCTYPE html` and `meta charset="utf-8"` for modern web documents.</title> 
