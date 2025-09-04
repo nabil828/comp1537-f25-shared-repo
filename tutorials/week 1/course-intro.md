@@ -44,7 +44,7 @@ We will learn how to **build a full web application**:
   - MongoDB
   - Mongoose.js
 
-🔗 [Course Outline (Draft)](https://www.bcit.ca/outlines/20243046870/)
+🔗 [Course Outline](https://www.bcit.ca/outlines/20253046870/https://www.bcit.ca/outlines/20243046870/)
 
 ## **Course Materials**
 
