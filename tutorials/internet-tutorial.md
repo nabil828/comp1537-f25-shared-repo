@@ -19,7 +19,7 @@
 * Internet devices have numeric **IP addresses** (e.g., `142.232.0.0/16` style), which are hard to remember.
 * **DNS (Domain Name System)** maps names (e.g., `bcit.ca`) to IP addresses. Think “phone book” for the Internet.
 
-> ✅ **Try it:** In a terminal, run `ping bcit.ca` or `nslookup bcit.ca` to see DNS resolution in action.
+> **Try it:** In a terminal, run `ping bcit.ca` or `nslookup bcit.ca` to see DNS resolution in action.
 
 
 ## 2) How computers connect (links & speeds)
@@ -54,7 +54,7 @@
 * A song (compressed): \~3–8 MB.
 * A movie (HD): \~1–5 GB (or more).
 
-> ✅ **Try it:** Open DevTools → Network tab and reload a page; check **Total transferred** and **DOMContentLoaded** time.
+> **Try it:** Open DevTools → Network tab and reload a page; check **Total transferred** and **DOMContentLoaded** time.
 
 ## 3) Protocols: shared rules for talking
 
@@ -139,7 +139,7 @@ So, you can think of **layers as “what needs to be done”** (move bits, deliv
 * **HTTPS** encrypts the connection so intermediaries (Wi-Fi hotspots, ISPs) can’t read/alter content.
 * Uses **TLS** and **certificates** issued by trusted Certificate Authorities; browsers show a **lock icon** when valid.
 
-> ✅ **Try it:** Visit a site with DevTools → Security tab; inspect the **certificate** and TLS details.
+> **Try it:** Visit a site with DevTools → Security tab; inspect the **certificate** and TLS details.
 
 
 ## 5) URLs: locating resources
@@ -156,14 +156,14 @@ https://www.example.com:443/blog/articles?id=3#comments
 * **Port**: optional; defaults are 80 (HTTP), 443 (HTTPS).
 * **Path**: which resource on the server.
 * **Query**: `?key=value&...` pairs (filters, parameters).
-* **Fragment**: `#anchor`—client-side navigation (no server round-trip).
+* **Fragment**: `#anchor`is client-side navigation (no server round-trip).
 
 ### Absolute vs relative
 
 * **Absolute**: `https://example.com/assets/logo.png` (works from anywhere)
 * **Relative**: `assets/logo.png`, `../images/map.svg` (relative to current page)
 
-> ✅ **Try it:** In a simple site folder, link two pages with relative paths. Move the folder to a different machine—links still work.
+> **Try it:** In a simple site folder, link two pages with relative paths. Move the folder to a different machine—links still work.
 
 
 ## 6) The Web Tech Trio: HTML, CSS, JavaScript
@@ -179,7 +179,7 @@ https://www.example.com:443/blog/articles?id=3#comments
 * **Performance**: browsers cache CSS/JS.
 * **Maintainability**: change the look (CSS) without touching content (HTML).
 
-> ✅ **Try it:** Create `index.html`, `styles.css`, `app.js`. Link CSS/JS. Change a CSS rule—watch the whole site update instantly.
+> **Try it:** Create `index.html`, `styles.css`, `app.js`. Link CSS/JS. Change a CSS rule—watch the whole site update instantly.
 
 
 ## 7) End-to-end journey: what happens when you visit a page
