@@ -107,7 +107,9 @@ We will learn how to **build a full web application**:
   ![alt text](images/image-6.png)
 
 ## **Course Pace**
-![alt text](images/image-10.png)
+
+![alt text](images/pengu-pudgy.gif)
+
 - Fast-paced, hands-on, and intensive
 - Frequent practice and steady learning
 - Many **weekly quizzes**
