@@ -244,12 +244,12 @@ Browsers try to “fix” broken HTML silently, but this can cause problems acro
 Some characters have special meaning in HTML and must be escaped:
 
 | Character | Reference |
-| | |
-| `<` | `&lt;` |
-| `>` | `&gt;` |
-| `&` | `&amp;` |
-| `"` | `&quot;` |
-| `'` | `&apos;` |
+| --------- | --------- |
+| `<`       | `&lt;`    |
+| `>`       | `&gt;`    |
+| `&`       | `&amp;`   |
+| `"`       | `&quot;`  |
+| `'`       | `&apos;`  |
 
 Example:
 
