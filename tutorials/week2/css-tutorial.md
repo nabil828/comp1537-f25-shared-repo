@@ -187,18 +187,18 @@ CSS supports multiple units:
 - **Viewport units**: `vh` (1% viewport height), `vw` (1% viewport width)
 - **Relative units**:
 
-  - `em` = current element’s font size
+  - `em` = current element's font size
   - `rem` = root font size (usually `<html>`)
 
-👉 Use `em`/`rem` for scalable designs, `px` for images, and `vw`/`vh` for layouts relative to screen size.
+Use `em`/`rem` for scalable designs, `px` for images, and `vw`/`vh` for layouts relative to screen size.
 
 ## 7. CSS Selectors
 
 Selectors define **which elements** to style:
 
-- **Tag selector**: `p { … }`
-- **Class selector**: `.optional { … }`
-- **ID selector**: `#first { … }`
+- **Tag selector**: `p { ... }`
+- **Class selector**: `.optional { ... }`
+- **ID selector**: `#first { ... }`
 
 ```css
 span.quantity {
