@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p#p1 {
+        background-color: tomato;
+      }
+      div p {
+        background-color: aqua;
+      }
+
+      div > p {
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="p1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+      blanditiis.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ea corrupti
+      impedit mollitia omnis, debitis placeat itaque commodi cupiditate est.
+    </p>
+    <div id="p1">
+      <table>
+        <tr>
+          <td>
+            <p>this the one!</p>
+          </td>
+        </tr>
+      </table>
+      <p>now this is the one!</p>
+    </div>
+  </body>
+</html>
