@@ -266,6 +266,8 @@ Also used for symbols, accents, and emoji:
 <p>&#128512; Hello!</p>
 ```
 
+![alt text](./images/image-20.png)
+
 ## Summary
 
 - HTML is a **semantic markup language** for structuring web pages.
