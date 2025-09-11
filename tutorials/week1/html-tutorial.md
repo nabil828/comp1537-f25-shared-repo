@@ -1,4 +1,3 @@
-
 # Introduction to Markup and HTML
 
 ## What is a Markup Language?
@@ -11,8 +10,6 @@ For example:
 - A sentence might be marked as a “paragraph” rather than just separated with extra spaces.
 
 This separation of **content** and **description** makes documents easier to process, interpret, and transform by computers.
-
----
 
 ## Example of a Markup Language: Wikitext
 
@@ -35,8 +32,6 @@ One example of a markup language is **Wikitext**, which powers Wikipedia.
 
 Although useful as an introduction, Wikitext is not our focus. The markup language we care about in this course is **HTML (HyperText Markup Language)**.
 
----
-
 ## Writing and Viewing Markup
 
 To use a markup language like HTML, you need two things:
@@ -57,8 +52,6 @@ To use a markup language like HTML, you need two things:
 - For example: `index.html`.
 - Once saved, these can be opened directly in any web browser.
 
----
-
 ## Introduction to HTML
 
 **HTML (HyperText Markup Language)** is the standard language used to create web pages.
@@ -73,8 +66,6 @@ Key features:
   - A paragraph (`<p>`)
   - A link (`<a>`)
   - An image (`<img>`)
-
----
 
 ## A Simple HTML Document
 
@@ -100,8 +91,6 @@ Here’s the minimal HTML structure:
 - `<head>`: Holds **meta-information** (title, character encoding, styles).
 - `<title>`: The page title (shown in the tab or bookmarks).
 - `<body>`: Contains the **visible content** of the page (text, images, links, etc.).
-
----
 
 ## HTML Elements and Tags
 
@@ -141,8 +130,6 @@ Example:
   <p><em>Important</p></em>
   ```
 
----
-
 ## Basic HTML Tags
 
 - `<!DOCTYPE html>`: Declares the document type (HTML5).
@@ -151,8 +138,6 @@ Example:
 - `<meta charset="UTF-8" />`: Character encoding (always use UTF-8).
 - `<title>`: Page title.
 - `<body>`: Main content area.
-
----
 
 ## Content Tags You’ll Use Often
 
@@ -171,8 +156,6 @@ Example:
   <li>another point</li>
 </ul>
 ```
-
----
 
 ## Attributes
 
@@ -199,8 +182,6 @@ Important attributes:
 - `lang` (language of the document or element)
 - `id` and `class` (identifiers for styling and scripting)
 
----
-
 ## Semantic Markup
 
 HTML is **semantic**, meaning tags describe _what content is_, not _how it looks_.
@@ -215,8 +196,6 @@ Why semantic HTML matters:
 3. **SEO** – Search engines use structure to better understand your page.
 4. **Adaptability** – Works well across devices (desktop, mobile, etc.).
 
----
-
 ## Generic Tags
 
 When no specific semantic tag fits, use:
@@ -230,8 +209,6 @@ Always pair with meaningful `class` or `id`:
 <li><span class="quantity">2 cups</span> flour</li>
 <div class="social">Follow us: <a href="http://twitter.com">Twitter</a></div>
 ```
-
----
 
 ## URLs in HTML
 
@@ -255,8 +232,6 @@ Tips:
 - File names are case-sensitive.
 - Avoid spaces; use `-` or `_`.
 
----
-
 ## Validating HTML
 
 Browsers try to “fix” broken HTML silently, but this can cause problems across browsers.
@@ -264,19 +239,17 @@ Browsers try to “fix” broken HTML silently, but this can cause problems acro
 - Use the **W3C Validator**: [https://validator.w3.org/](https://validator.w3.org/).
 - Expectation: All your course HTML must pass validation with **no errors**.
 
----
-
 ## Character References
 
 Some characters have special meaning in HTML and must be escaped:
 
 | Character | Reference |
-| --------- | --------- |
-| `<`       | `&lt;`    |
-| `>`       | `&gt;`    |
-| `&`       | `&amp;`   |
-| `"`       | `&quot;`  |
-| `'`       | `&apos;`  |
+| | |
+| `<` | `&lt;` |
+| `>` | `&gt;` |
+| `&` | `&amp;` |
+| `"` | `&quot;` |
+| `'` | `&apos;` |
 
 Example:
 
@@ -292,8 +265,6 @@ Also used for symbols, accents, and emoji:
 <p>Select File &rarr; Open. Ol&eacute;!</p>
 <p>&#128512; Hello!</p>
 ```
-
----
 
 ## Summary
 
