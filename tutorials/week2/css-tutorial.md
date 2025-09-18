@@ -324,6 +324,15 @@ When multiple CSS rules apply to the same element, **specificity** determines wh
 
   This ensures that images do not exceed the width of their container. The image will scale down if necessary, but will not scale up beyond its original size.
 
+  It is also used to center content on large screens:
+
+  ```css
+  body {
+    max-width: 800px;
+    margin: auto;
+  }
+  ```
+
 ## 13. Summary: HTML + CSS
 
 - **HTML**: defines structure and meaning.
