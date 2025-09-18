@@ -1,4 +1,4 @@
-# COMP 1537 Tutorial: Stylesheets and CSS
+# Stylesheets and CSS
 
 ## 1. Introduction to CSS
 

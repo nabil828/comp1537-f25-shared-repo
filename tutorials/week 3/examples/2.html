@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .row::after {
+        content: "";
+        display: block;
+        clear: both;
+      } /* clearfix */
+      .col {
+        float: left;
+      }
+      .side {
+        width: 30%;
+        background-color: aqua;
+      }
+      .main {
+        width: 70%;
+        background-color: lightgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <aside class="col side">Sidebar</aside>
+      <main class="col main">Content</main>
+    </div>
+  </body>
+</html>

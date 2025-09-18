@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .row {
+        display: flex;
+      }
+      .a {
+        flex: 0 0 200px;
+        background-color: lightblue;
+      } /* fixed side */
+      
+      .b {
+        flex: 1;
+        background-color: lightgreen;
+      } /* flexible middle */
+
+      .c {
+        flex: 0 0 200px;
+        background-color: lightcoral;
+      } /* fixed side */
+    </style>
+  </head>
+  <body>
+    <section class="row">
+      <div class="box a">A</div>
+      <div class="box b">B</div>
+      <div class="box c">C</div>
+    </section>
+  </body>
+</html>
