@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      header {
+        text-align: center;
+      }
+
+      main {
+        margin-bottom: 20px;
+        overflow: hidden;
+      }
+
+      nav {
+        background-color: black;
+        overflow: hidden;
+        margin-bottom: 10px;
+      }
+
+      a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        float: left;
+        color: white;
+      }
+
+      a:hover {
+        color: black;
+        background-color: white;
+      }
+
+      .card {
+        background-color: #a2b9bc;
+        padding: 10px;
+      }
+
+      #left {
+        float: left;
+        width: 75%;
+      }
+
+      #right {
+        float: right;
+        width: 25%;
+        padding-left: 10px;
+        box-sizing: border-box;
+      }
+
+      footer {
+        clear: both;
+        text-align: center;
+      }
+
+      img {
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Header</h1>
+    </header>
+
+    <nav>
+      <a href="#">Item 1</a>
+      <a href="#">Item 2</a>
+      <a href="#">Item 3</a>
+      <a href="#" style="float: right">Item 4</a>
+    </nav>
+
+    <main>
+      <div id="left">
+        <div class="card">
+          <h2>Title</h2>
+          <h5>Title Description</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
+            possimus nisi expedita, voluptas nobis eius. Sapiente laborum eaque
+            assumenda reprehenderit voluptate soluta iste minus dicta blanditiis
+            architecto possimus, provident facilis?
+          </p>
+        </div>
+        <div class="card" style="margin-top: 20px">
+          <h2>Title</h2>
+          <h5>Title Description</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
+            possimus nisi expedita, voluptas nobis eius. Sapiente laborum eaque
+            assumenda reprehenderit voluptate soluta iste minus dicta blanditiis
+            architecto possimus, provident facilis?
+            <img src="https://picsum.photos/400/300?random=1" alt="" />
+            <img src="https://picsum.photos/400/300?random=2" alt="" />
+            <img src="https://picsum.photos/400/300?random=3" alt="" />
+            <img src="https://picsum.photos/400/300?random=4" alt="" />
+            <img src="https://picsum.photos/400/300?random=5" alt="" />
+          </p>
+        </div>
+      </div>
+      <div id="right">
+        <div class="card">
+          <h2>Title</h2>
+          <h5>Title Description</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
+            possimus nisi expedita, voluptas nobis eius. Sapiente laborum eaque
+            assumenda reprehenderit voluptate soluta iste minus dicta blanditiis
+            architecto possimus, provident facilis?
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <h1>Footer</h1>
+    </footer>
+  </body>
+</html>

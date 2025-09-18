@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        font-family: sans-serif;
+      }
+
+      nav {
+        background-color: black;
+        overflow: hidden;
+      }
+
+      a {
+        display: block;
+        padding: 12px;
+        color: white;
+        text-decoration: none;
+        float: left;
+      }
+
+      a:hover {
+        background-color: white;
+        color: black;
+      }
+
+      /* class selector */
+      .card {
+        background-color: #a2b9bc;
+        padding: 10px;
+      }
+
+      /* id selector */
+      #left {
+        float: left;
+        width: 75%;
+      }
+
+      #right {
+        float: right;
+        width: 25%;
+        padding-left: 10px;
+        box-sizing: border-box;
+      }
+
+      #secondCard {
+        margin-top: 10px;
+      }
+
+      main {
+        margin-top: 10px;
+      }
+
+      footer {
+        clear: both;
+      }
+
+      img {
+        /* display: block; */
+      }
+
+      header,
+      footer {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- semantics elements -->
+    <header>
+      <h1>Header</h1>
+    </header>
+
+    <nav>
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+      <a href="#" style="float: right">Link 4</a>
+    </nav>
+
+    <main>
+      <div id="left">
+        <div class="card">
+          <h1>Title</h1>
+          <h5>Title Description</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            eos explicabo eius blanditiis veritatis. Iure rerum et esse possimus
+            quidem, dolor magni a animi! Quas harum a earum id inventore.
+          </p>
+        </div>
+        <div class="card" id="secondCard">
+          <h1>Title</h1>
+          <h5>Title Description</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            eos explicabo eius blanditiis veritatis. Iure rerum et esse possimus
+            quidem, dolor magni a animi! Quas harum a earum id inventore.
+            <br />
+            <img
+              style="width: 200px; border-radius: 10px"
+              src="https://picsum.photos/400/300?random=2"
+              alt=""
+            />
+            <img
+              style="width: 200px; border-radius: 10px"
+              src="https://picsum.photos/400/300?random=22"
+              alt=""
+            />
+            <img
+              style="width: 200px; border-radius: 10px"
+              src="https://picsum.photos/400/300?random=11"
+              alt=""
+            />
+            <img
+              style="width: 200px; border-radius: 10px"
+              src="https://picsum.photos/400/300?random=23"
+              alt=""
+            />
+            <img
+              style="width: 200px; border-radius: 10px"
+              src="https://picsum.photos/400/300?random=323"
+              alt=""
+            />
+          </p>
+        </div>
+      </div>
+      <div id="right">
+        <div class="card">
+          <h1>Title</h1>
+          <h5>Title Description</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            eos explicabo eius blanditiis veritatis. Iure rerum et esse possimus
+            quidem, dolor magni a animi! Quas harum a earum id inventore.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <h1>Footer</h1>
+    </footer>
+  </body>
+</html>

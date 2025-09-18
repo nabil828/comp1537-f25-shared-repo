@@ -184,6 +184,7 @@ CSS supports multiple units:
 
 - **Absolute units**: `cm`, `mm`, `in`, `pt`
 - **Pixels (`px`)**: tied to screen pixels
+- **% (percentage)**: relative to parent element
 - **Viewport units**: `vh` (1% viewport height), `vw` (1% viewport width)
 - **Relative units**:
 
@@ -289,7 +290,7 @@ ul>li: <ul><li></li></ul>
 
 - **block**: takes full width (e.g., `<div>`)
 - **inline**: flows in text (e.g., `<span>`)
-- **inline-block**: inline but allows width/height
+- **inline-block**: inline but allows width/height. Does not take full width.
 - **none**: hides element entirely
 
 ```css
@@ -298,7 +299,20 @@ li {
 }
 ```
 
-## 12. Summary: HTML + CSS
+<!-- TODO -->
+<!-- 1. CSS Specificity
+2. % unit -->
+
+## 12. Specificity
+
+When multiple CSS rules apply to the same element, **specificity** determines which rule takes precedence.
+
+- Inline styles (e.g., `style="..."`) have the highest specificity.
+- ID selectors (`#id`) have higher specificity than class selectors (`.class`), which in turn have higher specificity than tag selectors (`tag`).
+- If two rules have the same specificity, the one that appears last in the CSS file takes precedence.
+- Use `!important` to override other rules, but use it sparingly.
+
+## 13. Summary: HTML + CSS
 
 - **HTML**: defines structure and meaning.
 - **CSS**: defines appearance.
