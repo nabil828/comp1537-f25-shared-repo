@@ -10,7 +10,7 @@
 - Mobile-first: start narrow, enhance at breakpoints
 - Fluid widths (`%`, `max-width`) + images (`img {max-width:100%}`)
 - Use media queries to change layout, not content
-
+ 
 ```css
 /* Common breakpoints (guideline) */
 @media (min-width: 640px) {
