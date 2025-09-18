@@ -1,4 +1,4 @@
-# GIT Basics: Version Control for Developers
+# Git Basics: Version Control for Developers
 
 Why It Matters:
 
