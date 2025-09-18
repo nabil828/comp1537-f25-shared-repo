@@ -312,6 +312,18 @@ When multiple CSS rules apply to the same element, **specificity** determines wh
 - If two rules have the same specificity, the one that appears last in the CSS file takes precedence.
 - Use `!important` to override other rules, but use it sparingly.
 
+## The Max-Width
+
+- `max-width` sets a maximum width for an element. It is useful for responsive designs. For example:
+
+  ```css
+  img {
+    max-width: 100%;
+  }
+  ```
+
+  This ensures that images do not exceed the width of their container. The image will scale down if necessary, but will not scale up beyond its original size.
+
 ## 13. Summary: HTML + CSS
 
 - **HTML**: defines structure and meaning.
