@@ -1,0 +1,165 @@
+<html>
+  <head>
+    <title> </title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #f1f1f1;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      #topnav {
+        background-color: #333;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      #newDiv {
+        display: flex;
+        flex-direction: row;
+      }
+
+      #topnav a {
+        color: #f2f2f2;
+        text-decoration: none;
+        display: block;
+        /* float: left; */
+        padding: 14px 16px;
+        text-align: center;
+      }
+
+      #topnav a:hover {
+        background-color: f2f2f2;
+        color: #333;
+      }
+
+      .card {
+        background-color: #a2b9bc;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      .card img {
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+
+      #header,
+      #footer {
+        text-align: center;
+      }
+
+      main {
+        display: flex;
+        flex-direction: row;
+      }
+
+      #left_column {
+        width: 70%;
+        /* float: left; */
+      }
+
+      #right_column {
+        width: 30%;
+        /* float: right; */
+        padding-left: 10px;
+        margin-bottom: 10px;
+      }
+
+      #footer {
+        clear: both;
+      }
+
+      h1,
+      h2,
+      h3,
+      div {
+        margin: 0px;
+      }
+
+      @media screen and (max-width: 600px) {
+        main {
+          flex-direction: column;
+        }
+
+        #right_column,
+        #left_column {
+          width: 100%;
+        }
+      }
+
+      @media screen and (max-width: 300px) {
+        #topnav,
+        #newDiv {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="header">
+      <h1>Header</h1>
+    </div>
+    <div id="topnav">
+      <div id="newDiv">
+        <a href="#"> Link </a>
+        <a href="#"> Link </a>
+        <a href="#"> Link </a>
+      </div>
+
+      <a href="#"> Link </a>
+    </div>
+
+    <main>
+      <div id="left_column">
+        <div class="card">
+          <h2>Title</h2>
+          <h5>Title Description</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo
+            iure saepe illum quia quae laudantium, maiores alias id? Dolorum
+            ipsa facilis quisquam consequuntur quos? Eius inventore ab
+            perspiciatis suscipit?
+          </p>
+        </div>
+        <div class="card">
+          <h2>Title</h2>
+          <h5>Title Description</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo
+            iure saepe illum quia quae laudantium, maiores alias id? Dolorum
+            ipsa facilis quisquam consequuntur quos? Eius inventore ab
+            perspiciatis suscipit?
+          </p>
+          <img src="https://picsum.photos/536/354?random=1" width="200px" />
+          <img src="https://picsum.photos/536/354?random=2" width="200px" />
+          <img src="https://picsum.photos/536/354?random=3" width="200px" />
+          <img src="https://picsum.photos/536/354?random=4" width="200px" />
+          <img src="https://picsum.photos/536/354?random=5" width="200px" />
+        </div>
+      </div>
+      <div id="right_column">
+        <div class="card">
+          <h2>Title</h2>
+          <h5>Title Description</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo
+            iure saepe illum quia quae laudantium, maiores alias id? Dolorum
+            ipsa facilis quisquam consequuntur quos? Eius inventore ab
+            perspiciatis suscipit?
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <div id="footer">
+      <h2>Footer</h2>
+    </div>
+  </body>
+</html>
