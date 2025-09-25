@@ -122,6 +122,7 @@ Phew! That was a lot of HTML and CSS. Now we can add some behavior with JavaScri
 - `.hide()` / `.show()` → toggle visibility.
 - `.append("<p>new</p>")` → add new elements.
 - `.css("color", "red")` → change styles.
+- `.addClass("new")` / `.removeClass("new")` → toggle classes.
 - `.after("<hr>")` → insert after selected elements.
 - `.remove()` → delete elements.
 - `.before()`, `.prepend()`, `.empty()` also exist.
