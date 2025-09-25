@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <style>
+      .t1 {
+        background-color: tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <ul id="ul1">
+      <li>item 1</li>
+      <li id="li2">
+        <b> item 2 </b>
+      </li>
+      <li>item 3</li>
+    </ul>
+
+    <input type="text" id="inp1" />
+
+    <script>
+      // jQuery("#ul1").append("<li>item 4</li>");
+      // jQuery("#ul1").prepend("<li>item 0</li>");
+      // jQuery("#ul1").after("item 5");
+      // jQuery("#ul1").before("item -1");
+
+      // jQuery("#ul1").hide()
+      // jQuery("#ul1").show()
+      // jQuery("#ul1").hide()
+
+      // jQuery("#ul1").toggle()
+      // jQuery("#ul1").toggle()
+
+      // jQuery("#ul1").remove();
+
+      // console.log(jQuery("#li2").html()); //getter
+      // jQuery("#li2").html("<b>2222</b>"); // setter
+      // console.log(jQuery("#li2").html()); //getter
+
+      // jQuery("#inp1").val("1111"); // setter
+      // console.log(jQuery("#inp1").val()); // getter
+
+      // console.log(jQuery("#li2").text()); //getter
+      // jQuery("#li2").html("2222"); // setter
+      // console.log(jQuery("#li2").text()); //getter
+
+      // $("#li2").css("background-color", "tomato");
+      $("#li2").addClass("t1");
+      // $("#li2").removeClass("t1");
+    </script>
+  </body>
+</html>

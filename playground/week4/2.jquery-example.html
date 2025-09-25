@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <input type="text" id="inp1" />
+    <input type="text" id="inp2" />
+    <button id="btn1">Click Me</button>
+    <p id="result">This is output</p>
+
+    <script>
+      // jQuery an Object
+      // "#btn1" is a selector
+      // click is the event
+      // f1 is a function
+      // val() is a method that would read the value of an html element
+      // text() is a method that would write the text content of an html element
+
+      function f1() {
+        x = jQuery("#inp1").val();
+        y = jQuery("#inp2").val();
+
+        result = Number(x) + Number(y);
+        jQuery("#result").text(result);
+      }
+
+      jQuery("#btn1").click(f1);
+    </script>
+  </body>
+</html>
