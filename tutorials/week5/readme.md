@@ -1,5 +1,35 @@
 # JavaScript Introduction - Part II
 
+> Why did the const variable break up?  
+Because it couldn’t be changed. 😅
+
+Alright, enough jokes. Let's dive deeper into JavaScript.   In this tutorial, we'll cover:
+
+- [JavaScript Introduction](#javascript-introduction)
+- [JavaScript Output](#javascript-output)
+- [JavaScript Statements](#javascript-statements)
+- [JavaScript Syntax](#javascript-syntax)
+- [JavaScript Comments](#javascript-comments)
+- [JavaScript Variables](#javascript-variables)
+- [JavaScript Operators](#javascript-operators)
+  - [Arithmetic](#javascript-arithmetic)
+  - [Assignment](#javascript-assignment)
+- [JavaScript Data Types](#javascript-data-types)
+- [JavaScript Functions](#javascript-functions)
+- [JavaScript Objects](#javascript-objects)
+- [JavaScript Strings](#javascript-strings)
+  - [String Methods](#javascript-string-methods)
+  - [String Templates](#javascript-string-templates)
+- [JavaScript Random](#javascript-random)
+- [JavaScript Comparisons](#javascript-comparisons)
+- [JavaScript Control Flow](#javascript-if--else)
+  - [If/Else Statements](#javascript-if--else)
+  - [Switch Statements](#javascript-switch)
+- [JavaScript Loops](#javascript-loops)
+- [JavaScript Arrays](#javascript-arrays)
+  - [Array Methods](#javascript-array-methods)
+- [JavaScript Math](#javascript-math)
+
 ## JavaScript Introduction
 
 - JavaScript adds interactivity to web pages.
