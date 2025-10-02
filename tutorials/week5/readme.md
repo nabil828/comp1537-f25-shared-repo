@@ -3,7 +3,7 @@
 > Why did the const variable break up?  
 Because it couldn’t be changed. 😅
 
-Alright, enough jokes. Let's dive deeper into JavaScript.   In this tutorial, we'll cover:
+Alright, enough jokes! Let's dive deeper into JavaScript.   In this tutorial, we'll cover:
 
 - [JavaScript Introduction](#javascript-introduction)
 - [JavaScript Output](#javascript-output)
@@ -521,3 +521,4 @@ console.log(Math.ceil(-4.2));
 ```
 
 </details>
+
