@@ -1,9 +1,9 @@
 # JavaScript Introduction - Part II
 
 > Why did the const variable break up?  
-Because it couldn’t be changed. 😅
+> Because it couldn’t be changed. 😅
 
-Alright, enough jokes. Let's dive deeper into JavaScript.   In this tutorial, we'll cover:
+Alright, enough jokes. Let's dive deeper into JavaScript. In this tutorial, we'll cover:
 
 - [JavaScript Introduction](#javascript-introduction)
 - [JavaScript Output](#javascript-output)
@@ -262,7 +262,17 @@ console.log("Line1\nLine2");
 ```js
 let num = Math.random(); // 0 to <1
 let dice = Math.floor(Math.random() * 6) + 1;
-console.log(dice); // 1 to 6
+console.log(dice); // 1 to 6. 6 is inclusive
+```
+
+<details>
+<summary> Test Your Understanding</summary>
+
+What is the range of the randomNum in of the following code?
+
+```js
+let randomNum = Math.floor(Math.random() * 10) - 5;
+console.log(randomNum);
 ```
 
 ## JavaScript Comparisons
