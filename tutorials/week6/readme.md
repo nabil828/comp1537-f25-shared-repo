@@ -202,7 +202,7 @@ If no environment variable exists, `"default-key"` will be used.
 ### Quick Tip:
 
 `||` does **not** always return `true` or `false`;
-it returns the **actual operand** — the first truthy one.
+it returns the **actual operand**; the first truthy one.
 
 </details>
 
