@@ -213,3 +213,14 @@ $("#results").on("click", ".movie", function () {
   $(this).addClass("selected").siblings().removeClass("selected");
 });
 ```
+
+```html
+<style>
+  .selected{
+    border: 2px solid blue;
+  }
+  .movie{
+    cursor: pointer;
+  }
+</style>
+```
