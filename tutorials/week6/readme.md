@@ -46,7 +46,6 @@ $(".item").eq(2).addClass("third"); // zero-based
 $(".row").slice(5, 10).addClass("paged"); // get 5th to 10th rows
 ```
 
-
 ## AJAX: what is it?
 
 - “AJAX” = **A**synchronous **J**avaScript **A**nd **X**ML (today usually JSON)
@@ -132,10 +131,82 @@ $("#go").on("click", function () {
 });
 ```
 
-**Traversal + AJAX together**
+<details>
+<summary>Truthy Vs. Falsy and the || operator</summary>
+In JavaScript, **truthy** and **falsy** values determine how expressions are evaluated in conditional contexts — such as inside `if` statements or logical operations like `||` (OR) and `&&` (AND).
+
+---
+
+### 🔹 Truthy vs. Falsy
+
+- A **truthy** value is _anything_ that is considered `true` when evaluated in a Boolean context.
+- A **falsy** value is _anything_ that is considered `false`.
+
+#### Truthy examples:
 
 ```js
-$("#results").on("click", ".movie", function () {
-  $(this).addClass("selected").siblings().removeClass("selected");
-});
+if ("hello") console.log("truthy!"); // runs
+if (42) console.log("truthy!"); // runs
+if ([]) console.log("truthy!"); // runs
+if ({}) console.log("truthy!"); // runs
 ```
+
+#### Falsy values:
+
+Only **7 values** are falsy in JavaScript:
+
+```js
+false;
+0 - 0;
+0n; // BigInt zero
+(""); // empty string
+null;
+undefined;
+NaN;
+```
+
+Everything else (objects, arrays, non-empty strings, etc.) is **truthy**.
+
+---
+
+### The `||` (Logical OR) Operator
+
+The **logical OR** (`||`) operator returns the **first truthy value** it finds or the **last value** if all are falsy.
+
+#### Example 1 – Default Values:
+
+```js
+let name = userInput || "Guest";
+```
+
+If `userInput` is falsy (e.g., `""` or `undefined`), `"Guest"` is used.
+
+#### Example 2 – Evaluation Order:
+
+```js
+console.log(false || "hello"); // "hello"
+console.log(null || 0 || "yes"); // "yes"
+console.log("A" || "B"); // "A" (since "A" is truthy)
+```
+
+#### Example 3 – Real-world Use:
+
+```js
+let apiKey = process.env.API_KEY || "default-key";
+```
+
+If no environment variable exists, `"default-key"` will be used.
+
+---
+
+### Quick Tip:
+
+`||` does **not** always return `true` or `false`;
+it returns the **actual operand** — the first truthy one.
+
+</details>
+
+````html
+**Traversal + AJAX together** ```js $("#results").on("click", ".movie", function
+() { $(this).addClass("selected").siblings().removeClass("selected"); });
+````
