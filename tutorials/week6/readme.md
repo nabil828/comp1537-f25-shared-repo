@@ -13,7 +13,7 @@
   - **Lateral (siblings):** `.siblings()`, `.next()`, `.prev()`
   - **Filtering/Indexing:** `.filter()`, `.not()`, `.has()`, `.eq()`, `.first()`, `.last()`, `.slice()`
 
-- Helpers: `.each()`, `.map()` for iteration/transforms
+
 
 ## Hierarchy traversal (core patterns)
 
@@ -35,7 +35,7 @@ $(".buy-btn").closest(".card").addClass("highlight");
 ```js
 // lateral
 $(".active").siblings().removeClass("active");
-$(".active").next().addBack().addClass("current-or-next"); // addBack() includes original se
+$(".active").next().addBack().addClass("current-or-next"); // addBack() includes original set
 $(".tab.is-current").prev().addClass("before-current");
 
 // filtering / indexing
