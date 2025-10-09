@@ -3,11 +3,7 @@
 > Why did the const variable break up?  
 > Because it couldn’t be changed. 😅
 
-<<<<<<< HEAD
 Alright, enough jokes. Let's dive deeper into JavaScript. In this tutorial, we'll cover:
-=======
-Alright, enough jokes! Let's dive deeper into JavaScript.   In this tutorial, we'll cover:
->>>>>>> 9f0982fa5a7002500b64e6de02e805625e9f1273
 
 - [JavaScript Introduction](#javascript-introduction)
 - [JavaScript Output](#javascript-output)

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="code.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <input
+      class="p-2 border-2 border-solid rounded"
+      type="text"
+      id="op1"
+      value="2"
+    />
+    <br />
+    <input
+      class="p-2 border-2 border-solid rounded"
+      type="text"
+      id="op2"
+      value="3"
+    />
+    <br />
+    <br />
+
+    <button class="border-2 rounded p-2" id="addBtn">+</button>
+    <button class="border-2 rounded p-2" id="subBtn">-</button>
+    <button class="border-2 rounded p-2" id="mulBtn">*</button>
+    <button class="border-2 rounded p-2" id="divBtn">/</button>
+
+    <p id="resultPara">The result goes here</p>
+    <div id="historyDiv">The history goes here</div>
+  </body>
+</html>
