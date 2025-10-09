@@ -133,7 +133,7 @@ $("#go").on("click", function () {
 
 <details>
 <summary>Truthy Vs. Falsy and the || operator</summary>
-In JavaScript, **truthy** and **falsy** values determine how expressions are evaluated in conditional contexts — such as inside `if` statements or logical operations like `||` (OR) and `&&` (AND).
+In JavaScript, **truthy** and **falsy** values determine how expressions are evaluated in conditional contexts such as inside `if` statements or logical operations like `||` (OR) and `&&` (AND).
 
 ---
 
