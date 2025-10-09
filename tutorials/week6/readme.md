@@ -206,7 +206,10 @@ it returns the **actual operand** — the first truthy one.
 
 </details>
 
-````html
-**Traversal + AJAX together** ```js $("#results").on("click", ".movie", function
-() { $(this).addClass("selected").siblings().removeClass("selected"); });
-````
+## Adding Traversal for Interaction
+
+```js
+$("#results").on("click", ".movie", function () {
+  $(this).addClass("selected").siblings().removeClass("selected");
+});
+```
