@@ -203,7 +203,6 @@ If no environment variable exists, `"default-key"` will be used.
 
 `||` does **not** always return `true` or `false`;
 it returns the **actual operand** — the first truthy one.
-
 </details>
 
 ````html
