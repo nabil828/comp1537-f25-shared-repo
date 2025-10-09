@@ -137,7 +137,7 @@ In JavaScript, **truthy** and **falsy** values determine how expressions are eva
 
 ---
 
-### 🔹 Truthy vs. Falsy
+### Truthy vs. Falsy
 
 - A **truthy** value is _anything_ that is considered `true` when evaluated in a Boolean context.
 - A **falsy** value is _anything_ that is considered `false`.
@@ -203,6 +203,7 @@ If no environment variable exists, `"default-key"` will be used.
 
 `||` does **not** always return `true` or `false`;
 it returns the **actual operand** — the first truthy one.
+
 </details>
 
 ````html
