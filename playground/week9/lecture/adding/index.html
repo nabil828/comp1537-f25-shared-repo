@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <script src="code.js"></script> -->
+  </head>
+  <body>
+    <ul id="ul1">
+      <li id="li1HTMLItem">Item 1</li>
+      <li id="li2" class="someClass">Item 2</li>
+      <li id="li3" class="someClass">Item 3</li>
+      <li id="li4">Item 4</li>
+    </ul>
+
+    <script>
+      x = document.createElement("li");
+      x.id = `li5`;
+      x.innerText = `Item 5`;
+
+      // ul1.appendChild(x);
+      // ul1.after(x);
+      // ul1.before(x);
+      // ul1.prepend(x);
+
+      // li2.remove();
+
+      //   li2.style.visibility = "visible";
+      //   li2.style.visibility = "hidden";
+
+      //   li2.style.display = "none";
+      //   li2.style.display = "block";
+
+      li2.classList.add(`bg-red-400`, `p-2`)
+      li2.classList.add(`bg-red-400 p-2`)
+
+      li2.classList.add(`p-2`)
+      li2.classList.add(`bg-red-400`)
+      li2.classList.add(`bg-red-400`)
+      li2.classList.add(`bg-red-400`)
+      li2.classList.add(`bg-red-400`)
+      li2.classList.add(`bg-red-400`)
+    </script>
+  </body>
+</html>
