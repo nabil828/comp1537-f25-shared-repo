@@ -4,6 +4,7 @@ This repository contains documentation files for Node.js and Express.js, coverin
 
 ## Table of Contents
 
+0. [Introduction](-1.intro.md)
 1. [Node.js Overview](0.node.js.md)
 2. [Introduction to Express.js](1.express.js.md)
 3. [Express.js Request Object](2.express.js-request-object.md)
