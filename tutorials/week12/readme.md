@@ -418,11 +418,11 @@ Beside the `$avg` operator, there are other aggregation operators like `$sum`, `
 
 Phew! That was a lot of queries. Try to write the queries on your own to practice and understand how MongoDB queries work.
 
-## I. Introduction to Mongoose
+## I. Introduction to Mongoose.js
 
-### A. What is Mongoose?
+### A. What is Mongoose.js?
 
-Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js that provides a more structured way to interact with MongoDB. It provides a schema-based solution to model the application data and define the data structure in a more consistent and predictable way.
+Mongoose.js is an Object Data Modeling (ODM) library for MongoDB and Node.js that provides a more structured way to interact with MongoDB. It provides a schema-based solution to model the application data and define the data structure in a more consistent and predictable way.
 
 ### B. Advantages of using Mongoose
 
@@ -775,4 +775,5 @@ HEre is a table a summary of the RESTful API endpoints we have partially built:
 As a challenge try to complete the API by implementing the remaining endpoints.
 
 Phew! That was a lot of information. I hope you found this tutorial helpful. MongoDB and Mongoose are powerful tools that can help you build scalable and flexible web applications. If you have any questions or feedback, feel free to reach out to me. Happy coding! 🚀
+
 
