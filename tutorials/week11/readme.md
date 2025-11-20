@@ -1,11 +1,16 @@
 # Pokémon API Server with Express
 
+In this Week 11 tutorial, you’ll build a small full‑stack app step by step: setting up the backend and frontend, then implementing two core features: user login and a favorites flow.
+
+Use the [Pokémon API](https://pokeapi.co/) to fetch Pokémon data and display it in your app.
+
 ## Demo
 
 <!-- ![alt text](images/image-1.png)
 ![alt text](images/image.png) -->
-<img src="images/image-1.png" width="400" >
-<img src="images/image.png" width="400" >
+<img src="images/image-1.png" width="400" >  
+
+<img src="images/image.png" width="400" >  
 
 [Link to be To be added.](#)
 
