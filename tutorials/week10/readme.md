@@ -12,5 +12,6 @@ This repository contains documentation files for Node.js and Express.js, coverin
 5. [Express.js Middleware](4.express.js-middleware.md)
 6. [Express.js Templates](5.express.js-templates.md)
 7. [Express.js Sessions](6.express.js-sessions.md)
+8. [Express.js Static Files](7.express.js-static.md)
 
 Each file contains explanations and examples to help you understand these concepts better.

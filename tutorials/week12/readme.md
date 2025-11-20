@@ -2,7 +2,9 @@
 
 Databases play a vital role in modern web applications by storing and managing the data that drives functionality. They enable users to interact with the application and access the information they need. A persistent data store is essential for maintaining user information, application data, and other content that must be retained and manipulated over time. Unlike temporary in-memory structures such as arrays, databases offer long-term storage and reliable data retrieval.
 
-MongoDB is a widely used NoSQL database known for its flexibility and scalability. Unlike traditional relational databases, NoSQL systems like MongoDB are designed to manage large volumes of data using a more adaptable data model. MongoDB organizes data into collections of JSON-like documents, making it intuitive to structure and access information. Its ease of use, performance, and ability to scale have made MongoDB a popular choice in modern web development.  
+MongoDB is a widely used NoSQL database known for its flexibility and scalability. Unlike traditional relational databases, NoSQL systems like MongoDB are designed to manage large volumes of data using a more adaptable data model. MongoDB organizes data into collections of JSON-like documents, making it intuitive to structure and access information. Its ease of use, performance, and ability to scale have made MongoDB a popular choice in modern web development.
+
+Mongodb is a document-oriented NoSQL database that stores data in flexible, JSON-like documents.  
 ![alt text](images/image-db.png)
 
 ## I. MongoDB Introduction
