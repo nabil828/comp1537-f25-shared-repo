@@ -1,4 +1,4 @@
-# MongoDB & Mongoose Tutorial
+# MongoDB & Mongoose.js Tutorial
 
 Databases play a vital role in modern web applications by storing and managing the data that drives functionality. They enable users to interact with the application and access the information they need. A persistent data store is essential for maintaining user information, application data, and other content that must be retained and manipulated over time. Unlike temporary in-memory structures such as arrays, databases offer long-term storage and reliable data retrieval.
 
@@ -775,3 +775,4 @@ HEre is a table a summary of the RESTful API endpoints we have partially built:
 As a challenge try to complete the API by implementing the remaining endpoints.
 
 Phew! That was a lot of information. I hope you found this tutorial helpful. MongoDB and Mongoose are powerful tools that can help you build scalable and flexible web applications. If you have any questions or feedback, feel free to reach out to me. Happy coding! 🚀
+
