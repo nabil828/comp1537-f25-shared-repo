@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script defer src="data.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
-    <h1>Unicorns Explorer</h1>
-    <div>
-      <h1>Foods</h1>
-      <ul id="listOfFoodUl"></ul>
-    </div>
-    
-    <div>
-      <h1>Unicorns</h1>
-      <ul id="listOfUnicornsUl"></ul>
-    </div>
-
-    <div>
-      <h1>Details</h1>
-      <ul id="detailsOfTheUnicornUl"></ul>
+  <body class="bg-gray-100">
+    <h1 class="text-2xl text-center py-4">Unicorns Explorer</h1>
+    <div class="container mx-auto flex flex-row gap-6 justify-center">
+      <div class="bg-white rounded-lg p-6 shadow-lg flex-1">
+        <h1 class="text-xl">Foods</h1>
+        <ul id="listOfFoodUl"></ul>
+      </div>
+      <div class="bg-white rounded-lg p-6 shadow-lg flex-1">
+        <h1 class="text-xl">Unicorns</h1>
+        <ul id="listOfUnicornsUl"></ul>
+      </div>
+      <div class="bg-white rounded-lg p-6 shadow-lg flex-1">
+        <h1 class="text-xl">Details</h1>
+        <ul id="detailsOfTheUnicornUl"></ul>
+      </div>
     </div>
   </body>
 </html>

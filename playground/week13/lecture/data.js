@@ -170,7 +170,7 @@ unicorns.forEach(
           allUniqueFoodItems.push(aFoodItem)
 
           listOfFoodUl.innerHTML += `
-            <li onClick="listUnicornsFunction('${aFoodItem}')">
+            <li class="text-gray-700 p-2 hover:bg-blue-200 hover:text-blue-800 rounded cursor-pointer" onClick="listUnicornsFunction('${aFoodItem}')">
               ${aFoodItem}
             </li>
           `
@@ -193,7 +193,7 @@ function listUnicornsFunction(aFoodItem) {
   listOfUnicornsUl.innerHTML = ``
   theUnicornsThatLikeTHATfoodItem.forEach((aUnicorn) => {
     listOfUnicornsUl.innerHTML += `
-    <li onClick="displayAUnicornDetails('${aUnicorn.name}')">
+    <li class="text-gray-700 p-2 hover:bg-green-200 hover:text-green-800 rounded cursor-pointer"  onClick="displayAUnicornDetails('${aUnicorn.name}')">
       ${aUnicorn.name}
     </li>
     `
@@ -209,12 +209,13 @@ displayAUnicornDetails = function (aUnicornName) {
   )
   // console.log(THEUnicornsTHATIamLookingFor);
 
+  detailsOfTheUnicornUl.innerHTML = ``
   detailsOfTheUnicornUl.innerHTML += `
-  <li>
-    Name: ${THEUnicornsTHATIamLookingFor.name}
+  <li class="text-gray-700 p-2  rounded " >
+    <span class="font-bold">Name</span>: ${THEUnicornsTHATIamLookingFor.name}
   </li>
-  <li>
-    loves: ${THEUnicornsTHATIamLookingFor.loves}
+  <li class="text-gray-700 p-2  rounded " >
+    <span class="font-bold">loves</span>: ${THEUnicornsTHATIamLookingFor.loves}
   </li>
   `
 }
