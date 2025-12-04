@@ -305,7 +305,8 @@ The `$in` operator is used to find documents where the value of the field matche
 <summary>
 Matching all values in an array
 </summary>
-If you want match all values in the array, you can use the `$all` operator instead where the order of the values in the array matters. If the order does not matter, you can use the `$elemMatch` operator. Check the [Array Query Operators](https://www.mongodb.com/docs/manual/reference/operator/query-array/) MongoDB documentation for more information on these operators.
+If you want match all values in the array, you can use the `$all` operator . The order of the values in the array does not matter. Other elements can also exist in the array.
+
 </details>
 
 Alternatively, you can use the `$or` operator to achieve the same result:
@@ -775,5 +776,3 @@ HEre is a table a summary of the RESTful API endpoints we have partially built:
 As a challenge try to complete the API by implementing the remaining endpoints.
 
 Phew! That was a lot of information. I hope you found this tutorial helpful. MongoDB and Mongoose are powerful tools that can help you build scalable and flexible web applications. If you have any questions or feedback, feel free to reach out to me. Happy coding! 🚀
-
-
